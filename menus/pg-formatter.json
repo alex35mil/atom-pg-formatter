@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor[data-grammar='source sql']": [
+      {
+        "label": "Format PostgreSQL Code",
+        "command": "pg-formatter:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "PG Formatter",
+          "submenu": [
+            {
+              "label": "Format PostgreSQL Code",
+              "command": "pg-formatter:format"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
