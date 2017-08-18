@@ -1,10 +1,13 @@
 {
   "name": "pg-formatter",
   "description": "A PostgreSQL SQL syntax formatter for Atom (using pgFormatter)",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "repository": "https://github.com/alexfedoseev/atom-pg-formatter",
-  "keywords": ["sql", "postgresql"],
+  "keywords": [
+    "sql",
+    "postgresql"
+  ],
   "main": "./lib/index.js",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
